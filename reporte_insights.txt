@@ -1,0 +1,16 @@
+Análisis Exploratorio del Dataset
+==================================
+
+Media de las notas: 67.24
+Mediana de las notas: 67.00
+Desviación estándar de las notas: 3.89
+
+Correlaciones entre variables numéricas:
+                   Hours_Studied  Attendance  Sleep_Hours  Previous_Scores  Tutoring_Sessions  Physical_Activity  Exam_Score
+Hours_Studied           1.000000   -0.009908     0.010977         0.024846          -0.014282           0.004624    0.445455
+Attendance             -0.009908    1.000000    -0.015918        -0.020186           0.014324          -0.022435    0.581072
+Sleep_Hours             0.010977   -0.015918     1.000000        -0.021750          -0.012216          -0.000378   -0.017022
+Previous_Scores         0.024846   -0.020186    -0.021750         1.000000          -0.013122          -0.011274    0.175079
+Tutoring_Sessions      -0.014282    0.014324    -0.012216        -0.013122           1.000000           0.017733    0.156525
+Physical_Activity       0.004624   -0.022435    -0.000378        -0.011274           0.017733           1.000000    0.027824
+Exam_Score              0.445455    0.581072    -0.017022         0.175079           0.156525           0.027824    1.000000
